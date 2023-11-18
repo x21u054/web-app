@@ -16,8 +16,8 @@ import entity.ForgetPassword;
 
 public class SendEmail {
 	public void execute(EmailVerify emailVerify) {
-		final String username = "mail.campuscraft@gmail.com";
-		final String password = "ybqm edqz plrh hmcp";
+		final String username = "xxxxxx@gmail.com";
+		final String password = "アクセスキー";
 		String recipientEmail = emailVerify.getEmail(); // 送信先のメールアドレス
 
 		Properties props = new Properties();
@@ -72,8 +72,8 @@ public class SendEmail {
 	}
 	
 	public void execute(ForgetPassword forgetPassword) {
-		final String username = "mail.campuscraft@gmail.com";
-		final String password = "ybqm edqz plrh hmcp";
+		final String username = "xxxxxx@gmail.com";
+		final String password = "アクセスキー";
 		String recipientEmail = forgetPassword.getEmail(); // 送信先のメールアドレス
 
 		Properties props = new Properties();
